@@ -1,4 +1,4 @@
-obody {
+body {
     color: white;
     background-color: black;
 }
@@ -12,9 +12,28 @@ justify-content;center;
 }
 
 div{
-    margen-right:20px;
+    margin-right:20px;
 }
 
 .chamada-texto{
     margin-right:5%;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+    
 }
